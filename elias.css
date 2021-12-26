@@ -3,8 +3,8 @@
     padding:0;
     box-sizing: border-box;
 }
-.todos{background: rgb(233,226,74);
-    background: radial-gradient(circle, rgba(233,226,74,1) 0%, rgba(0,0,0,1) 78%);}
+.todos{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
 .todos{background-size:cover;}
 
     
@@ -57,6 +57,8 @@ nav{
     text-align: center;
     position: fixed;   
     width:  100%;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
 }
 
 ul{
@@ -73,7 +75,7 @@ a:link, a:visited, a:active {
 }
 
 li:hover{
-background-color:red;
+font-weight: bold;
 }
 
 
@@ -105,20 +107,20 @@ background-color:red;
     background-size: cover;} */
 
 
-.biography{background: rgb(233,226,74);
-    background: radial-gradient(circle, rgba(233,226,74,1) 0%, rgba(0,0,0,1) 78%);}
+.biography{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
 .biography{background-size:cover;}
     
-.contact{background: rgb(233,226,74);
-    background: radial-gradient(circle, rgba(233,226,74,1) 0%, rgba(0,0,0,1) 78%);}
+.contact{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
 .contact{background-size:cover;}
     
-.high{background: rgb(233,226,74);
-    background: radial-gradient(circle, rgba(233,226,74,1) 0%, rgba(0,0,0,1) 78%);}
+.high{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
 .high{background-size:cover;}
     
-.palm{background: rgb(233,226,74);
-    background: radial-gradient(circle, rgba(233,226,74,1) 0%, rgba(0,0,0,1) 78%);}
+.palm{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
 .palm{background-size:cover;}
 
 .ynde{color: white;
@@ -149,23 +151,23 @@ padding-top: 15px ;
 margin-top: 100px;}
 
 .highlight{color: white;
-text-align: center;
-padding-top: 90px;}
-.highlight{font-family: 'Oswald', sans-serif; font-size: 45px;
-text-shadow: 5px 5px 5px #ccc;
-text-transform: uppercase;
-animation-duration: 2s;
-animation-name: aparecer;
-animation-delay: 5s;
-animation-direction: alternate;
-animation-iteration-count: infinite;}
-
-@keyframes aparecer {
-    0%{
-        opacity: 0;
+    text-align: center;
+    padding-top: 90px;}
+    .highlight{font-family: 'Oswald', sans-serif; font-size: 50px;
+    text-shadow: 5px 5px 5px #ccc;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;}
+    
+    @keyframes aparecer {
+        0%{
+            opacity: 0;
+        }
+        100%{opacity: 1;}
     }
-    100%{opacity: 1;}
-}
 
 .fot{color: black;
     text-align: center;
@@ -261,7 +263,7 @@ margin-left: 650px;}
 .palmaress{color: white;
     text-align: center;
     padding-top: 80px;}
-.palmaress{font-family: 'Oswald', sans-serif; font-size: 45px;}
+.palmaress{font-family: 'Oswald', sans-serif; font-size: 50px;}
 
 .foot{color: black;
     text-align: center;
@@ -570,9 +572,9 @@ margin-top: 90px;}
 }
 
 .oro{font-family: 'Advent Pro', sans-serif;
-text-transform: uppercase;
+/* text-transform: uppercase; */
 font-size: 15px;
-font-weight: bold;}
+/* font-weight: bold;} */}
 
 
 
