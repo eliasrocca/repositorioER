@@ -12,7 +12,7 @@
 
     
 .inde{
-    padding-top:    80px;
+    padding-top:    25px;
     color:white;}
 .inde{
     text-align: center;}
@@ -51,18 +51,17 @@ align-items: center;
 padding: 20px;}
 
 nav{
-    background-color: #f3ca4c;
-    color: black;
-    height: 50px;
+    height: 70px;
     text-align: center;
-    position: fixed;   
+    position: fixed; 
     width:  100%;
     font-family: 'Advent Pro', sans-serif;
     text-transform: uppercase;
 }
 
 ul{
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-left: 500px;
 }
 
 li{
@@ -75,7 +74,7 @@ a:link, a:visited, a:active {
 }
 
 li:hover{
-font-weight: bold;
+    font-weight: bold;
 }
 
 
@@ -141,9 +140,12 @@ text-align: center;}
 .parrafouno{color:white;
 text-align: center;}
 
-.fut{color: black;
+/* .fut{color: black;
 text-align: center;
-background-color: #f3ca4c;}
+background-color: #f3ca4c;} */
+.fut{color: white;
+    text-align: center;
+    background-color: #303735;}
 
 .fut{height:  50px;
 width: 100%;
@@ -274,9 +276,9 @@ width: 100%;
 padding-top: 15px;
 margin-top: 42%;}  
 
-.personal{color: black;
+.personal{color: white;
     text-align: center;
-    background-color: #f3ca4c;}
+    background-color: #303735;}
 
 .personal{height: 50px;
 width: 100%;
@@ -573,8 +575,22 @@ margin-top: 90px;}
 
 .oro{font-family: 'Advent Pro', sans-serif;
 /* text-transform: uppercase; */
-font-size: 15px;
-/* font-weight: bold;} */}
+font-size: 15px}
+
+
+.carousel-item{text-align: center;}
+
+.carousel-inner img{
+    width:80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
 
 
 
