@@ -648,14 +648,14 @@ input, textarea {
 
 .img1 {
   background-color: chartreuse;
-  background-image: url(./imag/cr7\1 .jpg);
+  background-image: url(./imag/cr7\ 1.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .img2 {
   background-color: chocolate;
-  background-image: url(./imag/cr7\3 .jpg);
+  background-image: url(./imag/cr7\ 3.jpg);
   background-size: cover;
 }
 
@@ -668,13 +668,13 @@ input, textarea {
 
 .img4 {
   background-color: darkblue;
-  background-image: url(./imag/cr7pre.jpg);
+  background-image: url(./imag/cr7\ pre.jpg);
   background-size: cover;
 }
 
 .img5 {
   background-color: darkgoldenrod;
-  background-image: url(./imag/cr7\5 .jpg);
+  background-image: url(./imag/cr7\ 5.jpg);
   background-size: cover;
   background-position: center;
 }
