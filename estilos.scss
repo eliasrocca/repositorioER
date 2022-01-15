@@ -325,8 +325,8 @@ background-size: cover;
 .manutd{color: white;
     text-align: center;
     margin-top: 50px;}
-    .manutd
-    {font-family: 'Oswald', sans-serif; font-size: 20px;}
+    
+.manutd{font-family: 'Oswald', sans-serif; font-size: 20px;}
 
 .united{height: 300px;
         width: 30%;
@@ -352,7 +352,8 @@ background-size: cover;
             text-align: center;
             margin-top: 50px;}
             .juve
-            {font-family: 'Oswald', sans-serif; font-size: 20px;}
+            {font-family: 'Oswald', sans-serif;
+                font-size: 20px;}
 
 
             .juventus{height: 300px;
@@ -438,13 +439,13 @@ grid-gap: 20px;}
 
     .img1{
 background-color: chartreuse;
-background-image: url(./imag/cr7\ 1.jpg);
+background-image: url(./imag/cr7\1.jpg);
 background-size: cover;
 background-position: center;}
 
 .img2{
 background-color: chocolate;
-background-image: url(./imag/cr7\ 3.jpg);
+background-image: url(./imag/cr7\3.jpg);
 background-size: cover;
  }
 
@@ -456,13 +457,13 @@ background-position: center;}
 
 .img4{
 background-color: darkblue;
-background-image: url(./imag/cr7\ pre.jpg);
+background-image: url(./imag/cr7\pre.jpg);
 background-size: cover;
 }
 
 .img5{
 background-color: darkgoldenrod;
-background-image: url(./imag/cr7\ 5.jpg);
+background-image: url(./imag/cr7\5.jpg);
 background-size: cover;
 background-position: center;}
 
@@ -587,3 +588,26 @@ font-size: 15px}
 }
 
 .navbar{background-color: #f3ca4c;}
+
+.united{border-radius: 10px;}
+.madrid{border-radius: 10px;}
+.juventus{border-radius: 10px;}
+.sportinglisboa{border-radius: 10px;}
+.selportugal{border-radius: 10px;}
+
+$color: white;
+$color2: green;
+
+
+
+h3{color: $color2;
+
+span{color: $color;
+}
+
+}
+
+ 
+
+
+
