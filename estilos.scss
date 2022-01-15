@@ -1,0 +1,589 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.todos{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
+.todos{background-size:cover;}
+
+    
+.inde{font-family: 'Oswald', sans-serif; font-size: 50px;}
+
+    
+.inde{
+    padding-top:    25px;
+    color:white;}
+.inde{
+    text-align: center;}
+.oro {
+    text-align: center;}
+.oro{
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+/* .indec{padding-bottom: 10px;}
+
+.indec {font-family: 'Oswald', sans-serif; font-size: 30px;}
+.indec{
+    color:white;} */
+.foto {
+    border-radius: 10px;}
+ul{
+    list-style-type: none;}
+
+/* .principal{background-color: black;}
+.principal{height:40vh;}
+.principal{border-style:solid; color: white;}
+.principal{padding: 20px;
+margin: 75px;} */
+
+
+li{display: inline;}
+
+.oro{text-align: center;
+    color: white;}
+
+.division{display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;}
+
+nav{
+    height: 70px;
+    text-align: center;
+    position: fixed; 
+    width:  100%;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+}
+
+ul{
+    margin-top: 5px;
+    margin-left: 500px;
+}
+
+li{
+    padding-left: 10px;
+    padding-right:  10px;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+li:hover{
+    font-weight: bold;
+}
+
+
+.fotosronaldo{display: flex;}
+
+/* .articulo{margin-left: 22px;}
+.euronaldo{border-style: dashed; color: white;
+    background-size: cover;}
+
+
+.articulouno{margin-left: 65px;}
+.champions{border-style:dashed; color: white;
+    background-size: cover;}
+
+.articulodos{margin-left: 65px;}
+.league{border-style: dashed; color: white;
+    background-size: cover;}
+
+.articulotres{margin-left: 65px;}
+.champ{border-style: dashed; color: white;
+    background-size: cover;}
+
+.articulocuatro{margin-left: 65px;}
+.portugal{border-style: dashed; color: white;
+    background-size: cover;}
+
+.articulocinco{margin-left: 65px;}
+.botadeoro{border-style: dashed; color: white;
+    background-size: cover;} */
+
+
+.biography{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
+.biography{background-size:cover;}
+    
+.contact{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
+.contact{background-size:cover;}
+    
+.high{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
+.high{background-size:cover;}
+    
+.palm{background: #f3ca4c;
+    background: radial-gradient(circle, #f3ca4c, rgba(0,0,0,1) 78%);}
+.palm{background-size:cover;}
+
+.ynde{color: white;
+text-align: center;
+padding-top:80px;}
+
+.ynde{font-family: 'Oswald', sans-serif; font-size: 45px;}
+
+.portugol{margin-left: 33%;
+width: 35%;
+margin-top: 30px;}
+
+.portugol{border-style: solid; color: #f3ca4c;}
+
+.parrafo{color: white;
+text-align: center;}
+
+.parrafouno{color:white;
+text-align: center;}
+
+/* .fut{color: black;
+text-align: center;
+background-color: #f3ca4c;} */
+.fut{color: black;
+    text-align: center;
+    background-color: #f3ca4c;}
+
+.fut{height:  50px;
+width: 100%;
+padding-top: 15px ;
+margin-top: 100px;}
+
+.highlight{color: white;
+    text-align: center;
+    padding-top: 90px;}
+    .highlight{font-family: 'Oswald', sans-serif; font-size: 50px;
+    text-shadow: 5px 5px 5px #ccc;
+    text-transform: uppercase;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;}
+    
+    @keyframes aparecer {
+        0%{
+            opacity: 0;
+        }
+        100%{opacity: 1;}
+    }
+
+.fot{color: black;
+    text-align: center;
+    background-color: #f3ca4c;}
+
+.fot{height: 50px;
+width: 100%;
+padding-top: 15px;
+margin-top: 42%;}    
+
+.ifra{height: 260px;
+    width: 25%;
+margin-top: 10px;
+margin-left: 650px;}
+ 
+.mancrys{color: white;
+text-align: center;
+margin-top: 50px;}
+.mancrys{font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+
+
+.contactame{color: white;
+text-align: center;
+padding-top: 80px;}
+.contactame{font-family: 'Oswald', sans-serif; font-size: 45px;}
+
+form{
+    width: 450px;
+    margin-top: 40px;
+}
+
+input , textarea{
+    width: 15%;
+    margin-bottom: 20px;
+    padding: 7px;
+    display: block;
+    margin-left: 735px;
+}
+  
+.location{color: white;
+text-align: center;}
+.location{font-family: 'Oswald', sans-serif; font-size: 25px;}
+
+.mapa{margin-left: 570px;
+margin-top: 25px;}
+
+/* .main{background-color: blue;
+} */
+
+.arsenal
+{height: 260px;
+    width: 25%;
+margin-top: 10px;
+margin-left: 650px;}
+
+.manarsenal{color: white;
+text-align: center;
+margin-top: 50px;}
+.manarsenal{font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+.villarreal{height: 260px;
+    width: 25%;
+margin-top: 10px;
+margin-left: 650px;}
+
+.manvilla{color: white;
+text-align: center;
+margin-top: 50px;}
+.manvilla{font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+.manata{color: white;
+text-align: center;
+margin-top: 50px;}
+.atalanta{height: 260px;
+    width: 25%;
+margin-top: 10px;
+margin-left: 650px;}
+
+.manata{font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+.mantot{color: white;
+    text-align: center;
+    margin-top: 50px;}
+    
+.tottenham{height: 260px;
+    width: 25%;
+margin-top: 10px;
+margin-left: 650px;}
+
+.mantot{font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+.palmaress{color: white;
+    text-align: center;
+    padding-top: 80px;}
+.palmaress{font-family: 'Oswald', sans-serif; font-size: 50px;}
+
+.foot{color: black;
+    text-align: center;
+    background-color: #f3ca4c;}
+
+.foot{height: 50px;
+width: 100%;
+padding-top: 15px;
+margin-top: 42%;}  
+
+.personal{color:black;
+    text-align: center;
+    background-color:#f3ca4c;}
+
+.personal{height: 50px;
+width: 100%;
+padding-top: 15px;
+margin-top: 42%;}  
+
+/* .aveiro{background-color: red;} */
+.aveiro{height: 1500px;}
+
+.realm{color: white;
+text-align: center;
+margin-top: 50px;}
+.realm
+{font-family: 'Oswald', sans-serif; font-size: 20px;}
+.madrid{height: 300px;
+width: 30%;
+margin-left: 600px;
+}
+.españa{display: flex;
+    justify-content:center;
+    align-items:center ;
+}
+
+
+.main{height: 1100px;}
+
+.titulosr{color: white;}
+
+.titulosr{list-style: none;
+    list-style-image: url(./imag/estrella.png);}
+
+.titulosr{margin-left: 350px;}
+
+.real1::before{content: '';
+display:inline-block;
+width: 25px;
+height: 20px;
+background-image: url(./imag/estrella.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.manutd{color: white;
+    text-align: center;
+    margin-top: 50px;}
+    .manutd
+    {font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+.united{height: 300px;
+        width: 30%;
+        margin-left: 600px;}
+        
+        .titulosmanutd{color: white;}
+        .titulosmanutd{list-style: none;
+            list-style-image: url(./imag/estrella.png);}
+        
+        .titulosmanutd{margin-left: 350px;}
+        
+        .man1::before{content: '';
+        display:inline-block;
+        width: 25px;
+        height: 20px;
+        background-image: url(./imag/estrella.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        }        
+
+        .juve{color: white;
+            text-align: center;
+            margin-top: 50px;}
+            .juve
+            {font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+
+            .juventus{height: 300px;
+                width: 30%;
+                margin-left: 600px;}
+
+
+        .titulosjuve{color: white;}
+        .titulosjuve{list-style: none;
+            list-style-image: url(./imag/estrella.png);}
+        
+        .titulosjuve{margin-left: 520px;}
+        
+        .juv1::before{content: '';
+        display:inline-block;
+        width: 25px;
+        height: 20px;
+        background-image: url(./imag/estrella.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        } 
+
+        .sporting{color: white;
+            text-align: center;
+            margin-top: 50px;}
+            .sporting
+            {font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+            .sportinglisboa{height: 300px;
+                width: 30%;
+                margin-left: 600px;}    
+
+                .titulossporting{color: white;}
+        .titulossporting{list-style: none;
+            list-style-image: url(./imag/estrella.png);}
+        
+        .titulossporting{margin-left: 750px;}
+
+        .spor1::before{content: '';
+            display:inline-block;
+            width: 25px;
+            height: 20px;
+            background-image: url(./imag/estrella.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            } 
+
+            .seleccion{color: white;
+                text-align: center;
+                margin-top: 50px;}
+                .seleccion
+                {font-family: 'Oswald', sans-serif; font-size: 20px;}
+
+                .selportugal{height: 300px;
+                    width: 30%;
+                    margin-left: 600px;}
+                    .titulosportugal{color: white;}
+        .titulosportugal{list-style: none;
+            list-style-image: url(./imag/estrella.png);}
+        
+        .titulosportugal{margin-left: 685px;}  
+        
+        .por1::before{content: '';
+            display:inline-block;
+            width: 25px;
+            height: 20px;
+            background-image: url(./imag/estrella.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            } 
+
+        .sec{height: auto;
+        width: 100%;
+    padding:20px;
+display: grid;
+grid-template-rows:repeat(8, 120px);
+grid-gap: 20px;}
+
+  
+
+    .img1{
+background-color: chartreuse;
+background-image: url(./imag/cr7\ 1.jpg);
+background-size: cover;
+background-position: center;}
+
+.img2{
+background-color: chocolate;
+background-image: url(./imag/cr7\ 3.jpg);
+background-size: cover;
+ }
+
+.img3{
+background-color: crimson;
+background-image: url(./imag/portuguesa.jpg);
+background-size: cover;
+background-position: center;}
+
+.img4{
+background-color: darkblue;
+background-image: url(./imag/cr7\ pre.jpg);
+background-size: cover;
+}
+
+.img5{
+background-color: darkgoldenrod;
+background-image: url(./imag/cr7\ 5.jpg);
+background-size: cover;
+background-position: center;}
+
+.img6{
+background-color: darkgreen;
+background-image: url(./imag/eurocopa.jpeg);
+background-size: cover;
+background-position: center;}
+
+
+
+
+
+@media only screen and (min-width:360px) and (max-width:479px){
+    .sec{grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 120px);}
+}
+
+@media only screen and (min-width:480px) and (max-width:654px){
+    .sec{grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 120px);}
+
+    .img4{grid-row: 2/4;
+        }
+    .img5{grid-row: 2/4;
+        }
+    .img6{grid-row: 2/4;
+    }
+}
+
+
+@media only screen and (min-width:655px){
+    .sec{grid-template-rows: repeat(3, 120px);}
+    
+    .img1{grid-column: 1/2;
+        grid-row: 1/5;
+        background-color: chartreuse;
+    border-radius: 10px;}
+    
+    .img2{grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: chocolate;
+    border-radius: 5px;}
+    
+    .img3{grid-column: 3/5;
+    grid-row: 1/2;
+    background-color: crimson;
+    border-radius: 5px;}
+    
+    .img4{grid-column: 2/3;
+    grid-row: 2/4;
+    background-color: darkblue;
+    border-radius: 5px;}
+    
+    .img5{grid-column: 3/4;
+    grid-row: 2/5;
+    background-color: darkgoldenrod;
+    border-radius: 10px;}
+    
+    .img6{grid-column: 4/5;
+    grid-row: 2/5;
+    background-color: darkgreen;
+    border-radius: 10px;}
+    
+}
+
+.principal{margin-top: 100px;}
+
+.indec{color:white}
+.indec {font-family: 'Oswald', sans-serif; font-size: 30px;}
+.indec {margin-left: 20px;}
+
+
+.parrafo{font-family: 'Advent Pro', sans-serif; font-size: 22px;}
+.parrafouno{font-family: 'Advent Pro', sans-serif; font-size: 22px;}
+
+.parrafo{display: grid;}
+.parrafouno{display: grid;}
+
+
+@media only screen and (min-width:360px) and (max-width:479px){
+    .parrafo{
+        grid-template-rows: 120px;
+    font-size: 13px;
+    font-family: initial;
+margin-top: 20px;}
+        .parrafouno{
+            grid-template-rows: 280px;
+    font-size: 13px;
+    font-family: initial;
+margin-top: 120px;}
+           
+}
+
+@media only screen and (min-width:480px) and (max-width:549px){
+    .parrafo{grid-template-rows: 240px;
+        font-size: 17px;
+    margin-top: 20px;}
+    .parrafouno{
+        grid-template-rows: 240px;
+font-size: 17px;
+margin-top: 90px;}
+    }
+
+
+@media only screen and (min-width:550px){
+    .parrafo{font-family: 'Advent Pro', sans-serif;}
+    .parrafouno{font-family: 'Advent Pro', sans-serif;}
+}
+
+.oro{font-family: 'Advent Pro', sans-serif;
+/* text-transform: uppercase; */
+font-size: 15px}
+
+
+.carousel-item{text-align: center;}
+
+.carousel-inner img{
+    width:80%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.navbar{background-color: #f3ca4c;}
