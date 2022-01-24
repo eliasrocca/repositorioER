@@ -162,6 +162,7 @@ li:hover {
   background-size: cover;
 }
 
+
 .ynde {
   color: white;
   text-align: center;
@@ -246,15 +247,14 @@ background-color: #f3ca4c;} */
   height: 50px;
   width: 100%;
   padding-top: 15px;
-  margin-top: 42%;
+  margin-top: 55%;
 }
 
-.ifra {
-  height: 260px;
-  width: 25%;
-  margin-top: 10px;
-  margin-left: 650px;
-}
+.ifra{display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+margin: auto;}
 
 .mancrys {
   color: white;
@@ -309,10 +309,11 @@ input, textarea {
 /* .main{background-color: blue;
 } */
 .arsenal {
-  height: 260px;
-  width: 25%;
-  margin-top: 10px;
-  margin-left: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .manarsenal {
@@ -327,10 +328,11 @@ input, textarea {
 }
 
 .villarreal {
-  height: 260px;
-  width: 25%;
-  margin-top: 10px;
-  margin-left: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .manvilla {
@@ -351,10 +353,11 @@ input, textarea {
 }
 
 .atalanta {
-  height: 260px;
-  width: 25%;
-  margin-top: 10px;
-  margin-left: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .manata {
@@ -369,10 +372,11 @@ input, textarea {
 }
 
 .tottenham {
-  height: 260px;
-  width: 25%;
-  margin-top: 10px;
-  margin-left: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
 }
 
 .mantot {
@@ -435,9 +439,12 @@ input, textarea {
 
 .madrid {
   height: 300px;
-  width: 30%;
-  margin-left: 600px;
+  width: 30%
+  
 }
+.bbva{display: flex;
+justify-content: center;
+flex-direction: column;}
 
 .españa {
   display: flex;
@@ -459,8 +466,8 @@ input, textarea {
 }
 
 .titulosr {
-  margin-left: 350px;
-}
+text-align: center;} 
+
 
 .real1::before {
   content: "";
@@ -472,6 +479,7 @@ input, textarea {
   background-position: center;
   background-size: cover;
 }
+
 
 .manutd {
   color: white;
@@ -487,8 +495,10 @@ input, textarea {
 .united {
   height: 300px;
   width: 30%;
-  margin-left: 600px;
 }
+.premierleague{display: flex;
+justify-content: center;
+flex-direction: column;}
 
 .titulosmanutd {
   color: white;
@@ -499,9 +509,9 @@ input, textarea {
   list-style-image: url(./imag/estrella.png);
 }
 
-.titulosmanutd {
-  margin-left: 350px;
-}
+/* .titulosmanutd {
+
+} */
 
 .man1::before {
   content: "";
@@ -528,21 +538,24 @@ input, textarea {
 .juventus {
   height: 300px;
   width: 30%;
-  margin-left: 600px;
 }
+.calcio{display: flex;
+justify-content: center;
+flex-direction: column;}
 
 .titulosjuve {
   color: white;
 }
+
 
 .titulosjuve {
   list-style: none;
   list-style-image: url(./imag/estrella.png);
 }
 
-.titulosjuve {
+/* .titulosjuve {
   margin-left: 520px;
-}
+} */
 
 .juv1::before {
   content: "";
@@ -569,8 +582,10 @@ input, textarea {
 .sportinglisboa {
   height: 300px;
   width: 30%;
-  margin-left: 600px;
 }
+.primeira{display: flex;
+justify-content: center;
+flex-direction: column;}
 
 .titulossporting {
   color: white;
@@ -581,9 +596,9 @@ input, textarea {
   list-style-image: url(./imag/estrella.png);
 }
 
-.titulossporting {
+/* .titulossporting {
   margin-left: 750px;
-}
+} */
 
 .spor1::before {
   content: "";
@@ -610,8 +625,11 @@ input, textarea {
 .selportugal {
   height: 300px;
   width: 30%;
-  margin-left: 600px;
 }
+
+.selecao{display: flex;
+justify-content: center;
+flex-direction: column;}
 
 .titulosportugal {
   color: white;
@@ -622,9 +640,9 @@ input, textarea {
   list-style-image: url(./imag/estrella.png);
 }
 
-.titulosportugal {
+/* .titulosportugal {
   margin-left: 685px;
-}
+} */
 
 .por1::before {
   content: "";
@@ -869,79 +887,46 @@ input, textarea {
   border-radius: 10px;
 }
 
-h3 {
-  color: green;
-}
-h3 span {
-  color: white;
-}
 
-.btn--red1 {
-  background-color: black;
-  height: 200px;
-  width: 500px;
-  border: 2px solid #111;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #f00;
-  font-family: cursive;
-}
-
-.btn--red2 {
-  background-color: black;
-  height: 200px;
-  width: 500px;
-  border: 2px solid #111;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #f00;
-  font-family: monospace;
-}
-
-.btn--red3 {
-  background-color: black;
-  height: 200px;
-  width: 500px;
-  border: 2px solid #111;
-  text-align: center;
-  font-size: 50px;
-  line-height: 200px;
-  color: #fff;
-  text-transform: uppercase;
-  text-shadow: 0 0 5px #f00;
-  font-family: serif;
-}
-
-.redsocial, .redsocial--nueva {
-  border: 5px solid #f00;
-  background-color: orangered;
-  height: 300px;
-  width: 600px;
-  padding: 20px;
-}
-
-.redsocial--nueva {
-  border-width: 3px;
-  color: #fff;
-  font-size: 60px;
-}
-
-.box__uno {
-  background-color: green;
-  width: 50%;
-  height: 400px;
-}
-
-.box__dos {
-  background-color: gold;
-  width: 110px;
-  height: 650px;
-}
 /*# sourceMappingURL=estilos.css.map */
 /*# sourceMappingURL=elias.css.map */
+
+.palm{display:block;}
+
+.apflex{display:flex;
+  flex-direction: column;
+justify-content:flex-start;}
+
+
+@media only screen and (min-width: 480px) and (max-width: 654px) {
+  .apflex{display:flex;
+  flex-direction: column;
+  justify-content:flex-start;}
+
+  .atalanta{
+  height: 260px;
+  width:100%;
+  margin-top: 10px;
+  }
+  .tottenham{
+  height: 260px;
+  width:100%;
+  margin-top: 10px;
+  }
+  .villarreal{
+  height: 260px;
+  width:100%;
+  margin-top: 10px;
+  }
+  .ifra{
+  height: 260px;
+  width:100%;
+  margin-top: 10px;
+  }
+  .arsenal{
+  height: 260px;
+  width:100%;
+  margin-top: 10px;
+  }
+
+}   
