@@ -405,7 +405,7 @@ input, textarea {
   height: 50px;
   width: 100%;
   padding-top: 15px;
-  margin-top: 42%;
+  margin-top: 4000px;
 }
 
 .personal {
@@ -438,13 +438,15 @@ input, textarea {
 }
 
 .madrid {
-  height: 300px;
-  width: 30%
+  /* height: 350px; */
+  width: 75%;
+  /* margin-left: 150px; */
   
 }
-.bbva{display: flex;
-justify-content: center;
-flex-direction: column;}
+.bbva {
+  display: flex;
+  align-items: center;
+  flex-direction: column;}
 
 .españa {
   display: flex;
@@ -465,19 +467,22 @@ flex-direction: column;}
   list-style-image: url(./imag/estrella.png);
 }
 
-.titulosr {
-text-align: center;} 
+
 
 
 .real1::before {
   content: "";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 25px;
   height: 20px;
   background-image: url(./imag/estrella.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: 600px;
+
+  
 }
 
 
@@ -493,11 +498,11 @@ text-align: center;}
 }
 
 .united {
-  height: 300px;
-  width: 30%;
+  /* height: 300px; */
+  width: 75%;
 }
 .premierleague{display: flex;
-justify-content: center;
+align-items: center;
 flex-direction: column;}
 
 .titulosmanutd {
@@ -515,13 +520,16 @@ flex-direction: column;}
 
 .man1::before {
   content: "";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 25px;
   height: 20px;
   background-image: url(./imag/estrella.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: 650px;
+
 }
 
 .juve {
@@ -536,11 +544,11 @@ flex-direction: column;}
 }
 
 .juventus {
-  height: 300px;
-  width: 30%;
+  /* height: 300px; */
+  width: 75%;
 }
 .calcio{display: flex;
-justify-content: center;
+align-items: center;
 flex-direction: column;}
 
 .titulosjuve {
@@ -559,13 +567,15 @@ flex-direction: column;}
 
 .juv1::before {
   content: "";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 25px;
   height: 20px;
   background-image: url(./imag/estrella.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: 650px;
 }
 
 .sporting {
@@ -580,11 +590,11 @@ flex-direction: column;}
 }
 
 .sportinglisboa {
-  height: 300px;
-  width: 30%;
+  /* height: 300px; */
+  width: 75%;
 }
 .primeira{display: flex;
-justify-content: center;
+align-items: center;
 flex-direction: column;}
 
 .titulossporting {
@@ -594,6 +604,7 @@ flex-direction: column;}
 .titulossporting {
   list-style: none;
   list-style-image: url(./imag/estrella.png);
+
 }
 
 /* .titulossporting {
@@ -602,13 +613,16 @@ flex-direction: column;}
 
 .spor1::before {
   content: "";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 25px;
   height: 20px;
   background-image: url(./imag/estrella.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: 650px;
+  
 }
 
 .seleccion {
@@ -623,12 +637,12 @@ flex-direction: column;}
 }
 
 .selportugal {
-  height: 300px;
-  width: 30%;
+  /* height: 300px; */
+  width: 75%;
 }
 
 .selecao{display: flex;
-justify-content: center;
+align-items: center;
 flex-direction: column;}
 
 .titulosportugal {
@@ -638,6 +652,8 @@ flex-direction: column;}
 .titulosportugal {
   list-style: none;
   list-style-image: url(./imag/estrella.png);
+
+  
 }
 
 /* .titulosportugal {
@@ -646,13 +662,15 @@ flex-direction: column;}
 
 .por1::before {
   content: "";
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   width: 25px;
   height: 20px;
   background-image: url(./imag/estrella.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-right: 650px;
 }
 
 .sec {
@@ -929,4 +947,20 @@ justify-content:flex-start;}
   margin-top: 10px;
   }
 
-}   
+}
+
+.boxI{display: flex;
+  justify-content: center;
+  align-items: center;
+flex-wrap: wrap;
+flex-direction: row;}
+
+
+@media only screen and (min-width: 480px) and (max-width: 654px) {
+  .foot{margin-top: 1500px;}
+}
+
+
+@media only screen and (min-width: 654px) and (max-width: 800px) {
+  .foot{margin-top: 1800px;}
+}
