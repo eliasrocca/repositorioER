@@ -175,8 +175,8 @@ li:hover {
 }
 
 .portugol {
-  margin-left: 33%;
-  width: 35%;
+  margin-left: 15%;
+  width: 70%;
   margin-top: 30px;
 }
 
@@ -188,6 +188,7 @@ li:hover {
 .parrafo {
   color: white;
   text-align: center;
+  margin-top: 50px;
 }
 
 .parrafouno {
@@ -279,17 +280,26 @@ margin: auto;}
 }
 
 form {
-  width: 450px;
+  /* width: 450px; */
   margin-top: 40px;
 }
 
 input, textarea {
-  width: 15%;
+  width: auto;
   margin-bottom: 20px;
   padding: 7px;
-  display: block;
-  margin-left: 735px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  /* margin-left: 735px; */
 }
+
+.dea{display: flex;
+justify-content: center;
+align-items: center;}
+
+
 
 .location {
   color: white;
@@ -301,10 +311,16 @@ input, textarea {
   font-size: 25px;
 }
 
-.mapa {
-  margin-left: 570px;
+.map{display: flex;
+justify-content: center;
+align-items: center;}
+
+/* .mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 25px;
-}
+} */
 
 /* .main{background-color: blue;
 } */
@@ -952,8 +968,8 @@ justify-content:flex-start;}
 .boxI{display: flex;
   justify-content: center;
   align-items: center;
-flex-wrap: wrap;
-flex-direction: row;}
+  flex-wrap: wrap;
+  flex-direction: row;}
 
 
 @media only screen and (min-width: 480px) and (max-width: 654px) {
@@ -964,3 +980,4 @@ flex-direction: row;}
 @media only screen and (min-width: 654px) and (max-width: 800px) {
   .foot{margin-top: 1800px;}
 }
+
