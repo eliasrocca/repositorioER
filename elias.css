@@ -981,3 +981,5 @@ justify-content:flex-start;}
   .foot{margin-top: 1800px;}
 }
 
+.navbar-brand{color: black !important;
+font-size: 50px;}
