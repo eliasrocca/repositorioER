@@ -50,6 +50,15 @@ function ageRequest () {
 ageRequest()
 
 
+let boton = document.getElementById("boton-1");
+boton.onclick = () => {
+    alert("Se apretó el boton")
+};
+//miFormulario.addEventListener("ENVIAR", validarFormulario);
+
+
+
+
 
 
 
