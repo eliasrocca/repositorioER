@@ -56,6 +56,18 @@ boton.onclick = () => {
 };
 //miFormulario.addEventListener("ENVIAR", validarFormulario);
 
+const availableShirts = [{ id: 1, shirt:"Man Utd", precio:7000},
+{ id: 2, shirt:"Juventus", precio:5900},
+{ id: 3, shirt:"Real Madrid", precio:5500},
+{ id: 4, shirt:"Sporting Lisboa", precio:9000},
+{ id: 5, shirt:"Portugal", precio:6300}];
+const guardarLocal = (clave, valor) => {localStorage.setItem(clave,valor)};
+for (const shirt of availableShirts) {
+    guardarLocal(shirt.id, JSON.stringify(shirt));
+}
+guardarLocal("listaShirts", JSON.stringify(availableShirts));
+
+
 
 
 
