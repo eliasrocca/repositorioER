@@ -1,0 +1,33 @@
+{
+    "get": "leagues",
+    "parameters": {
+      "id": "1",
+      "season": "2020"
+    },
+    "errors": [],
+    "results": 1,
+    "response": [
+      {
+        "id": 1,
+        "name": "MLB",
+        "type": "League",
+        "logo": null,
+        "country": {
+          "id": 1,
+          "name": "USA",
+          "code": "US",
+          "flag": "https://media.api-sports.io/flags/us.svg"
+        },
+        "seasons": [
+          {
+            "season": 2020,
+            "current": true,
+            "start": "2020-02-21",
+            "end": "2020-09-03"
+          }
+        ]
+      }
+    ]
+  }
+
+

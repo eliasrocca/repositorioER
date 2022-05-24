@@ -153,11 +153,64 @@ window.onload = function(){
 }
 
 
+// const players= players
+// var myHeaders = new Headers();
+// myHeaders.append("x-rapidapi-key", "b8531928935a36b749f8eeeeb5e67588");
+// myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
 
+// var requestOptions = {
+//   method: 'GET',
+//   headers: myHeaders,
+//   redirect: 'follow'
+// };
 
+// fetch( "https://v3.football.api-sports.io/players" , requestOptions)
+// .then( (res) => {
+//   return res.json();
+// }) .then( (players) => {
+//   console.log(players);
 
+// }).catch(error => console.log('error', error));
 
+const myHeaders = new Headers();
+myHeaders.append("x-rapidapi-key", "b8531928935a36b749f8eeeeb5e67588");
+myHeaders.append("x-rapidapi-host", "v3.football.api-sports.io");
 
+const requestOptions = {
+    method: 'GET',
+    headers: myHeaders,
+    redirect: 'follow'
+  }
+
+    const scorers =  fetch("https://v3.football.api-sports.io/players/topscorers?league=2&season=2018", requestOptions)
+    .then((res)=>res.json()
+    .then((res)=>res)
+    .catch((err)=>{"err",err})
+    )
+    
+    
+    
+    console.log(scorers)
+
+    // const getTopScorers = async ()=>{
+    //   const url = "https://v3.football.api-sports.io/players/topscorers?league=2&season=2018"
+      
+    //   const res = await fetch(url, requestOptions)
+      
+    //   const data = await res.json()
+      
+    //   return data
+      
+    //   }
+          
+          
+          
+    //   getTopScorers().then((res)=>console.log(res))
+
+      const url = "https://v3.football.api-sports.io/players/topscorers?league=2&season=2018"
+const res = fetch(url,requestOptions).then((res)=>res.json())
+
+res.then((data)=>console.log(data))
 
 
 
