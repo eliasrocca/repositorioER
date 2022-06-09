@@ -995,3 +995,18 @@ font-size: 50px;}
 
   .bloqueado{overflow-y: hidden;}
   .activado{display: block;}
+
+
+/* .card{
+  left:20%;
+  margin:100px
+} */
+
+.contenedor-listado{display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+
+.paraeditar{width: 50px;}
+

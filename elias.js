@@ -1,61 +1,3 @@
-// let nombre = Swal.fire({
-//   title:'¿Cual es tu nombre?',
-//   text: 'Introduce el nombre aquí',
-//   input: 'text',
-//   inputPlaceholder: 'Nombre', }) 
-//prompt("Ingrese su nombre")
-// let mail = prompt ("Ingrese su mail")
-// let pregunta= prompt("Estás interesado en ver nuestros productos?")
-//let Cristiano = "Si";
-// if (pregunta == "Si") {
-//   let timerInterval
-//   Swal.fire({
-//     title: 'Auto close alert!',
-//     html: 'I will close in <b></b> milliseconds.',
-//     timer: 2000,
-//     timerProgressBar: true,
-//     didOpen: () => {
-//       Swal.showLoading()
-//       const b = Swal.getHtmlContainer().querySelector('b')
-//       timerInterval = setInterval(() => {
-//         b.textContent = Swal.getTimerLeft()
-//       }, 100)
-//     },
-//     willClose: () => {
-//       clearInterval(timerInterval)
-//     }
-//   }).then((result) => {
-//     /* Read more about handling dismissals below */
-//     if (result.dismiss === Swal.DismissReason.timer) {
-//       console.log('I was closed by the timer')
-//     }
-//   })  
-//     //alert("A continuación verás los productos disponibles.")
-// // Lista de productos...
-//     //console.log("Felicidades , ganaste!");
-// }
-// else  {
-//   Swal.fire({
-//     title: 'Are you sure?',
-//     text: "You won't be able to revert this!",
-//     icon: 'warning',
-//     showCancelButton: true,
-//     confirmButtonColor: '#3085d6',
-//     cancelButtonColor: '#d33',
-//     confirmButtonText: 'Yes!',
-//   }).then((result) => {
-//     if (result.isConfirmed) {
-//       Swal.fire(
-//         'Vuelva prontos!',
-//         'Your file has been deleted.',
-//         'success',
-//       )
-//     }
-//   })
-  
-//   //alert("Vuelva prontos")
-// } 
-
 class remeras{
     constructor(equipo,temporada,dorsal,precio,disponibilidad){
         this.equipo=equipo
@@ -107,10 +49,10 @@ function ageRequest () {
 
 
 const availableShirts = [{ id: 1, shirt:"Man Utd", precio:7000},
-{ id: 2, shirt:"Juventus", precio:5900},
-{ id: 3, shirt:"Real Madrid", precio:5500},
-{ id: 4, shirt:"Sporting Lisboa", precio:9000},
-{ id: 5, shirt:"Portugal", precio:6300}];
+{ id: 2, shirt:"Juventus", precio:6000},
+{ id: 3, shirt:"Real Madrid", precio:7500},
+{ id: 4, shirt:"Sporting Lisboa", precio:5200},
+{ id: 5, shirt:"Portugal", precio:6500}];
 const guardarLocal = (clave, valor) => {localStorage.setItem(clave,valor)};
 for (const shirt of availableShirts) {
     guardarLocal(shirt.id, JSON.stringify(shirt));
@@ -214,5 +156,52 @@ res.then((data)=>console.log(data))
 
 
 
+
+
+
+
+console.log(listadoDeProductos)
+
+
+
+// const botton= document.getElementById("btn-primary");
+// botton.addEventListener("click", ()=>{
+// console.log("evernto click");
+// });
+
+
+const contenedorListado= document.querySelector('.contenedor-listado');
+listadoDeProductos.forEach(productoParticular =>
+  
+  {
+    console.log(productoParticular)
+    console.log(productoParticular.name)
+    console.log(contenedorListado)
+          contenedorListado.innerHTML+=` 
+          <div class="card" style="width:25%">
+          <img src="./imag/${productoParticular.imagen}" class="card-img-top" alt="..."  width="400" height="200">
+          <div class="card-body">
+          <h5 class="card-title">${productoParticular.name}</h5>
+          <p class="precio">${productoParticular.precio}</p>
+          <p class="precio">${productoParticular.talle}</p>
+          <a href="secciones/contacto.html" class="btn btn-primary agregar-carrito">Buy now</a>
+          </div>
+        </div>`
+
+
+
+    
+  });
+
+
+  
+
+
+
+
+
+
+// const content = element.innerHTML;
+// element.innerHTML = htmlString;
 
 
